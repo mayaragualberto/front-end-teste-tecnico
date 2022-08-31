@@ -1,0 +1,11 @@
+@import "./cadastro.css";
+@import "./termos.css";
+@import "./sucesso.css";
+@import "./entrar.css";
+@import "./global.css";
+
+/* Padrão de cores*/
+@import "./utilidades/cores.css";
+
+/*Componentes*/
+@import "./utilidades/componentes.css";

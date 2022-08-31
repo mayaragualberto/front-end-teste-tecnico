@@ -1,0 +1,31 @@
+.botao-ativo {
+  display: inline-block;
+  padding: 16px 50px;
+  background: linear-gradient(90deg, var(--cor-3), var(--cor-4));
+  border-radius: 30px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  color: var(--cor-0);
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.botao-ativo:hover,
+.botao:hover {
+  opacity: 0.8;
+}
+
+.botao {
+  display: inline-block;
+  padding: 16px 50px;
+  border-radius: 30px;
+  color: var(--cor-1);
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}

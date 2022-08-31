@@ -1,0 +1,36 @@
+.sucesso {
+  max-width: 1960px;
+  padding: 0px 0px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.sucesso-img {
+  width: 100%;
+  height: 100%;
+}
+
+.sucesso h1 {
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  align-self: center;
+  color: var(--cor-5);
+  font-size: 3rem;
+  position: relative;
+}
+
+.sucesso h1::before {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: url("../icones/sucesso.svg") no-repeat center;
+  position: absolute;
+  top: 70px;
+  left: 180px;
+  z-index: -1;
+}

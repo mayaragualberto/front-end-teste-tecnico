@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main class="cadastro">
+    <img class="cadastro-img" src="./img/img.png" alt="Foto principal">
+    <form action="" class="formulario-cadastro" id="formulario-cadastro">
+      <label for="cadastro-header" class="cadastro-header">Cadastre-se<br></label>
+      <div class="cadastro-grupo">
+        <label for="usuario" class="cadastro-label">Primeiro Nome</label>
+        <input type="text" class="cadastro-input" name="usuario" id="usuario" placeholder="Insira seu primeiro nome..." required>
+        <label for="usuario" class="cadastro-label">Segundo Nome</label>
+        <input type="text" class="cadastro-input" name="usuario" id="usuario" placeholder="Insira seu segundo nome...">
+        <label for="usuario" class="cadastro-label">Telefone</label>
+        <input type="text" class="cadastro-input" name="number" id="usuario" placeholder="Ex.: (DDD) 9 9999-9999">
+        <label for="usuario" class="cadastro-label">Email</label>
+        <input type="text" class="cadastro-input" name="usuario" id="usuario" placeholder="Ex.: usuario@provedor.com.br">
+        <label for="usuario" class="cadastro-label">Senha</label>
+        <input type="password" class="cadastro-input" name="usuario" id="usuario" placeholder="Insira sua senha">
+      </div>
+      <div class="termos-de-uso">
+        <label for="termos" class="termos-label">
+          <input class="termos-checkbox" type="checkbox" name="termos" id="termos"> Eu li e concordo com os <strong>Termos de Uso</strong>
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="cadastro-acao">
+        <a class="botao-ativo" href="./sucesso.html">Cadastrar</a>
+        <a class="botao" href="./entrar.html">Já tenho uma conta</a>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
