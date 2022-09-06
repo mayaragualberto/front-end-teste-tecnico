@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Entrar</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+  <main class="entrar">
+    <img class="entrar-img" src="./img/img.png" alt="Foto principal">
+    <form action="" class="formulario-entrar" id="formulario-entrar">
+      <label for="cadastro-header" class="cadastro-header">Entrar<br></label>
+      <div class="cadastro-grupo">
+        <label for="email" class="cadastro-label">Email</label>
+        <input type="email" class="cadastro-input" name="usuario" id="usuario" placeholder="Insira seu primeiro nome..." required>
+        <label for="usuario" class="cadastro-label">Senha</label>
+        <input type="password" class="cadastro-input" name="usuario" id="usuario" placeholder="Insira sua senha">
+      </div>
+      <div class="termos-de-uso">
+        <label for="termos" class="termos-label">
+          <input class="termos-checkbox" type="checkbox" name="termos" id="termos"> Eu li e concordo com os <strong>Termos de Uso</strong>
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="cadastro-acao">
+        <a class="botao-ativo" href="./dashboard.html">Entrar</a>
+        <a class="botao" href="./index.html">Não possuo conta</a>
+      </div>
+    </form>
+  </main>
+</body>

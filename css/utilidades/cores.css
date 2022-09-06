@@ -5,4 +5,13 @@
   --cor-3: #f26ca6;
   --cor-4: #fcbe3e;
   --cor-5: #f78289;
+  --cor-6: #f3f3f3;
+  --cor-7: #b3b3b3;
+}
+
+.cor-3 {
+  color: var(--cor-3);
+}
+.cor-4 {
+  color: var(--cor-4);
 }
